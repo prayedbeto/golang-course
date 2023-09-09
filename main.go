@@ -1,11 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"iusa-auto-deploy/ejercicios"
-	// "iusa-auto-deploy/variables"
-	// "runtime"
-)
+import "iusa-auto-deploy/ejercicios"
+
+// "iusa-auto-deploy/variables"
+// "runtime"
 
 func main() {
 	// fmt.Println("Hola mundo!")
@@ -35,8 +33,15 @@ func main() {
 	// }
 
 	// Ejercicio 01
-	numero, texto := ejercicios.ConvNumerico("50")
+	// numero, texto := ejercicios.ConvNumerico("50")
 
-	fmt.Println(numero)
-	fmt.Println(texto)
+	// fmt.Println(numero)
+	// fmt.Println(texto)
+
+	// teclado.IngresoNumero()
+
+	// iteraciones.Iterar()
+
+	// Ejercicio 02
+	ejercicios.TablaMultiplicar()
 }
